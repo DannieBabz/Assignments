@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+	margin: auto;
+	width: 50%;
+	color: white;
+	margin-top: 12rem;
+}
+body {
+	background-color: hsl(0, 0%, 95%);
+	font-family: "Lexend Deca", sans-serif;
+}
+
+.container h2 {
+	font-family: "Big Shoulders Display", cursive;
+	padding-top: 20px;
+	padding-left: 50px;
+	color: hsl(0, 0%, 95%);
+}
+.container p {
+	font-family: "Lexend Deca", sans-serif;
+	font-weight: 400;
+	width: 300px;
+	font-size: 15px;
+	padding: 50px;
+	line-height: 28px;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+img {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.first-box {
+	background-color: hsl(31, 77%, 52%);
+	border-radius: 7px 0 0 7px;
+}
+.first-box button {
+	color: hsl(31, 77%, 52%);
+}
+.second-box {
+	background-color: hsl(184, 100%, 22%);
+}
+.second-box button {
+	color: hsl(184, 100%, 22%);
+}
+.third-box {
+	background-color: hsl(179, 100%, 12%);
+	border-radius: 0 7px 7px 0;
+}
+.third-box button {
+	color: hsl(179, 100%, 12%);
+}
+button {
+	margin: 40px;
+	background-color: hsl(0, 0%, 95%);
+	border: none;
+	padding: 12px;
+	border-radius: 20px;
+	font-family: "Lexend Deca", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	background-color: hsl(31, 77%, 52%);
+	display: flex;
+	text-align: center;
+	width: 100px;
+	font-size: 20px;
+	border-radius: 7px;
+	margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	main {
+		width: 50%;
+		margin-top: 25%;
+	}
+	.container {
+		flex-direction: column;
+		margin: auto;
+	}
+	.first-box {
+		background-color: hsl(31, 77%, 52%);
+		border-radius: 7px;
+		width: 250px;
+		margin-bottom: 20px;
+	}
+
+	.second-box {
+		background-color: hsl(184, 100%, 22%);
+		border-radius: 7px;
+		width: 100%;
+		width: 250px;
+		margin-bottom: 20px;
+	}
+
+	.third-box {
+		background-color: hsl(179, 100%, 12%);
+		border-radius: 7px;
+		width: 250px;
+		margin-bottom: 20px;
+	}
+	.container p {
+		padding: 40px;
+		width: 250px;
+		font-size: 12px;
+	}
+	.container h2 {
+		padding: 40px;
+	}
+	.container img {
+		padding: 20px;
+	}
+	a {
+		margin-bottom: 50px;
+		margin-left: 50px;
+	}
+}
